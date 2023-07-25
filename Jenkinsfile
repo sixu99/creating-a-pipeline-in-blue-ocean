@@ -18,5 +18,11 @@ pipeline {
       }
     }
 
+    stage('Deliver') {
+      steps {
+        sh 'echo "===========Delivering Stage =========="'
+      }
+    }
+
   }
 }
